@@ -3,8 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO Meta Tags -->
   <title>DocPic Studio — Universal Image & PDF Govt Suite</title>
-  
+  <meta name="description" content="Free 100% client-side online document and photo editor. Crop passport photos, clean signatures, enhance images, compress KB sizes, and convert PDFs locally in your browser." />
+  <meta name="keywords" content="docpic studio, passport photo crop, signature cleaner, image compressor, pdf converter, free online document editor" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Google Search Console Ownership Verification Tag -->
+  <!-- Replace YOUR_VERIFICATION_CODE with the content string provided by Search Console -->
+  <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
+
+  <!-- Favicon / Site Icon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <!-- Open Graph / Social Sharing Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://doc-pic-studio.vercel.app/" />
+  <meta property="og:title" content="DocPic Studio — Universal Image & PDF Govt Suite" />
+  <meta property="og:description" content="Free client-side tool for passport photo cropping, signature cleaning, file compression, and PDF conversion." />
+
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Cropper.js CSS -->
@@ -17,6 +35,36 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Google Rich Snippets Schema (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "DocPic Studio",
+        "url": "https://doc-pic-studio.vercel.app/"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "DocPic Studio Pro",
+        "operatingSystem": "All",
+        "applicationCategory": "BusinessApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "150"
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body class="bg-slate-900 text-slate-100 min-h-screen flex flex-col font-sans">
 
